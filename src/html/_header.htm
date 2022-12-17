@@ -1,0 +1,32 @@
+<header class="header">
+	<div class="header__container-big">
+		<a href="../index.html" class="header__logo">LOGO</a>
+		<div class="header__menu menu">
+			<a class="menu__icon burger-menu" data-da=".header__actions,767"><span class="icon-menu"></span><span class="burger-text">Menu</span></a>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="menu__link" href="../projects.html">Projects</a> 
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="../about.html">About us</a> 
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="../news.html">Blog</a> 
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="../contact.html">Contacts</a> 
+					</li>
+				</ul>
+				<div class="button-set">
+
+				</div>
+				@@include('_info.htm',{})
+			</nav>
+		</div>
+		<div class="header__actions">
+			<button class="header__button-language button-language">En</button>
+			<button data-popup="#popup" data-da=".button-set,767" class="header__button button">Send Request</button>
+		</div>
+	</div>
+</header>

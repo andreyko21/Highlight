@@ -1,0 +1,50 @@
+.one-project-body {
+    .wrapper {
+        .page {
+            .black-block {
+                margin-top: 70px;
+                .component-2 {
+                    background: radial-gradient(50% 50% at 50% 50%, #0f0f0f 0%, #080808 100%);
+                    padding-top: 110px;
+                    color: #fff;
+                }
+
+                .next-project-block {
+                    position: relative;
+                    text-align: center;
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        background: radial-gradient(50% 50% at 50% 50%, #0f0f0f 0%, #080808 100%);
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 80%;
+                        z-index: -1;
+                    }
+                    .next-project {
+                        font-weight: 700;
+                        font-size: 8px;
+                        line-height: 14px;
+                        letter-spacing: 0.2em;
+                        text-transform: uppercase;
+                        color: #828282;
+                    }
+                    .title {
+                        color: #fff;
+                        margin-top: 16px;
+                    }
+                    .picture {
+                        margin-top: 128px;
+                        position: relative;
+                        max-width: 1312px;
+                        max-height: 652px;
+                        .img {
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

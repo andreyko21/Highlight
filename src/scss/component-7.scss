@@ -1,0 +1,53 @@
+.component-7 {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    color: #080808;
+    @media (max-width: 860px) {
+        padding-top: 104px;
+        padding-bottom: 104px;
+    }
+    &__container-big {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+        @media (max-width: 860px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .component-7__left-block {
+            max-width: 424px;
+            @media (max-width: 860px) {
+                align-self: start;
+            }
+            .component-7__send-mail{
+                margin-top: 130px;
+                padding-bottom: 60px;
+            }
+        }
+        .component-7__right-block {
+            max-width: 366px;
+            @media (max-width: 860px) {
+                align-self: end;
+            }
+            
+            .description {
+                opacity: 1;
+            }
+            .component-7__right-bottom-block {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                font-weight: 600;
+            }
+            a {
+                color: #080808;
+                &:hover {
+                }
+                &:active {
+                }
+                &:focus {
+                }
+            }
+        }
+    }
+}

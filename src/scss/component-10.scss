@@ -1,0 +1,48 @@
+.component-10 {
+    color: #ffffff;
+    .full-screen {
+        padding-top: 100px;
+        position: relative;
+        height: 100vh;
+        .component-10__img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: -1;
+        }
+        .component-10__container-big {
+            width: 100%;
+            height: 100%;
+            .component-10__container {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                .component-10__text-block {
+                    max-width: 539px;
+                    .title {
+                    }
+                    .description {
+                        margin-top: 24px;
+                        max-width: 410px;
+                        opacity: 1;
+                    }
+                    .component-10__list {
+                        margin-top: 62px;
+                        display: flex;
+                        gap: 32px;
+                    }
+                    .component-10__item {
+                        display: flex;
+                        opacity: 0.7;
+                        gap: 14px;
+                        .icon-maps-and-flags {
+                        }
+                        .component-10__text {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

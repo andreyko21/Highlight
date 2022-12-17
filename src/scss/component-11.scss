@@ -1,0 +1,26 @@
+.component-11 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #080808;
+    &__container-big {
+        .component-11__container {
+            .sub-title {
+                max-width: 380px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+            }
+            .description {
+                margin-top: 17px;
+                max-width: 660px;
+            }
+            .button-link.component-11__button-link {
+                margin-top: 40px;
+                color: #080808;
+                &::before, &::after{
+                    background: rgba(49, 49, 49, 0.2);
+                }
+            }
+        }
+    }
+}

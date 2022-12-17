@@ -1,0 +1,51 @@
+.component-8 {
+    position: relative;
+    margin: auto;
+    max-width: 1920px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    &__absolute-img{
+        position: absolute;
+        max-width: 168px;
+        max-height: 216px;
+        right: 0;
+        bottom: 40px;
+    }
+    &__container-big {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .component-8__left-block {
+            max-width: 516px;
+            max-height: 607px;
+            .component-8__img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .component-8__right-block {
+            max-width: 382px;
+            .component-8__list-info {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                row-gap: 44px;
+            }
+            .description {
+                margin-top: 56px;
+                opacity: 1;
+            }
+            .component-8__item {
+                .component-8__item-title {
+                    font-weight: 700;
+                    font-size: 56px;
+                    line-height: 68px;
+                }
+                .component-8__item-description {
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 132%;
+                }
+            }
+        }
+    }
+}

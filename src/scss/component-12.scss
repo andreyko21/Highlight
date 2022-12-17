@@ -1,0 +1,31 @@
+.component-12 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    &__container-big {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .component-12__gallary {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 8px;
+            .component-12__item {
+            }
+            .component-12__item.component-12__item-big {
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+            .img.component-12__img {
+            }
+        }
+        .button {
+            min-width: 204px;
+            position: relative;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto; 
+            margin-top: 80px;
+            border: 1px solid rgba(#080808, 0.32);
+        }
+    }
+}

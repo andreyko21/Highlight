@@ -1,0 +1,75 @@
+.component-9 {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    &__container-big {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 133px;
+        .component-9__absolute-block {
+            position: absolute;
+            max-width: 315px;
+            max-height: 380px;
+            bottom: 118px;
+            left: 134px;
+        }
+        .component-9__left-block {
+            padding-left: 50px;
+            max-width: 433px;
+            margin-top: 32px;
+            .title {
+            }
+            .component-9__position {
+                margin-top: 32px;
+                max-width: 167px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+            }
+            .component-9__quote {
+                position: relative;
+                margin-top: 56px;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 170.66%;
+                &::before {
+                    position: absolute;
+                    content: "“";
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 44px;
+                    left: -30px;
+                }
+            }
+        }
+        .component-9__right-block {
+            max-width: 516px;
+            .component-9__picture {
+            }
+            .component-9__list {
+                padding-top: 100px;
+                padding-bottom: 56px;
+                display: flex;
+                gap: 79px;
+            }
+            .description {
+            }
+            .img {
+            }
+            .component-9__item {
+                max-width: 96px;
+                .item-title {
+                    font-weight: 700;
+                    font-size: 56px;
+                    line-height: 68px;
+                }
+                .item-description {
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 132%;
+                }
+            }
+        }
+    }
+}

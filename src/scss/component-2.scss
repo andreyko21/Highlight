@@ -1,0 +1,156 @@
+.component-2 {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    @media (max-width: 1024px) {
+        margin-top: 124px;
+        margin-bottom: 124px;
+    }
+    @media (max-width: 768px) {
+        margin-top: 104px;
+        margin-bottom: 104px;
+    }
+    @media (max-width: 370px) {
+        margin-top: 96px;
+        margin-bottom: 96px;
+    }
+    &__container-big {
+        position: relative;
+        .component-2__text-block {
+            
+            padding-top: 71px;
+            display: block;
+            height: 440px;
+            max-width: 1046px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            @media (max-width: 1024px) {
+                flex-direction: column;
+                align-items: center;
+                gap: 24px;
+                height: auto;
+                padding-top: 10px;
+            }
+            .title.component-2__title {
+                align-self: flex-start;
+                max-width: 424px;
+                z-index: 3;
+                @media (max-width: 1024px) {
+                    align-self: center;
+                    text-align: center;
+                    max-width: 428px;
+                }
+                @media (max-width: 500px) {
+                    align-self: flex-start;
+                    text-align: left;
+                }
+            }
+            .component-2__description-block {
+                z-index: 3;
+                align-self: flex-end;
+                max-width: 339px;
+                @media (max-width: 1024px) {
+                    align-self: center;
+                    text-align: center;
+                    max-width: 455px;
+                }
+                @media (max-width: 500px) {
+                    align-self: flex-start;
+                    text-align: left;
+                }
+                .description.component-2__description {
+                }
+                .component-2__button {
+                    background-color: #fff;
+                    color: #080808;
+                    margin-top: 41px;
+                    min-width: 180px;
+                    &:hover {
+                    }
+                    &:active {
+                    }
+                    &:focus {
+                    }
+                }
+            }
+        }
+        .gallary-component-2 {
+            min-height: 800px;
+            position: absolute;
+            top: 0;
+            left: 21%;
+            width: 737px;
+            height: 469px;
+            z-index: 2;
+            @media (max-width: 1024px) {
+                display: none;
+            }
+            &__item {
+                position: absolute;
+                width: 211px;
+                height: 273px;
+
+                &:nth-child(1) {
+                    left: 0px;
+                    top: 197.76px;
+                    transform: rotate(-5.99deg);
+                }
+                &:nth-child(2) {
+                    left: 65.67px;
+                    top: 176.22px;
+                    transform: rotate(-0.33deg);
+                }
+                &:nth-child(3) {
+                    left: 105.67px;
+                    top: 173px;
+                    transform: rotate(-5.81deg);
+                }
+                &:nth-child(4) {
+                    left: 170.67px;
+                    top: 143.32px;
+                    transform: rotate(-1.72deg);
+                }
+                &:nth-child(5) {
+                    left: 216.67px;
+                    top: 130.46px;
+                    transform: rotate(-10.5deg);
+                }
+                &:nth-child(6) {
+                    left: 264px;
+                    top: 105.76px;
+                    transform: rotate(-5.99deg);
+                }
+                &:nth-child(7) {
+                    left: 329.67px;
+                    top: 84.22px;
+                    transform: rotate(-0.33deg);
+                }
+                &:nth-child(8) {
+                    left: 369.67px;
+                    top: 81px;
+                    transform: rotate(-5.81deg);
+                }
+                &:nth-child(9) {
+                    left: 434.67px;
+                    top: 51.32px;
+                    transform: rotate(-1.72deg);
+                }
+                &:nth-child(10) {
+                    left: 480.67px;
+                    top: 38.45px;
+                    transform: rotate(-10.5deg);
+                }
+                &:hover {
+                    transform: rotate(0);
+                    z-index: 5;
+                    transition: all 0.8s ease 0s;
+                }
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

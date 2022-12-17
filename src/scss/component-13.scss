@@ -1,0 +1,46 @@
+.component-13 {
+    color: #fff;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    &__container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 327px;
+        column-gap: 236px;
+        row-gap: 24px;
+        .title {
+            align-self: flex-start;
+            justify-content: flex-start;
+            max-width: 417px;
+        }
+        .component-13__right-block {
+            max-width: 366px;
+            align-self: flex-end;
+            justify-content: flex-end;
+            .description {
+                opacity: 1;
+            }
+            .send-mail {
+                margin-top: 41px;
+                &__input {
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+                    color: rgba(255, 255, 255, 0.7);
+                }
+                .absolute-text-input {
+                }
+                .absolute-button-input {
+                    position: absolute;
+                    right: 5px;
+                    top: 3px;
+                    &:hover {
+                    }
+                    &:active {
+                    }
+                    &:focus {
+                    }
+                }
+            }
+        }
+    }
+}

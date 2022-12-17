@@ -1,0 +1,103 @@
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<button data-close type="button" class="popup__close"></button>
+		<div class="popup__content">
+
+			<form class="form-popup popup__form active">
+				<div class="form-popup__first-block">
+					<h2 class="form-popup__title"></h2>
+					<ul class="form-popup__list">
+						<li class="form-popup__item">
+							<input class="form-popup__input-text" id="Name" type="text">
+							<label class="form-popup__name-input form-popup__absolute" for="Name">Name</label>
+						</li>
+						<li class="form-popup__item">
+							<input class="form-popup__input-text" id="LastName" type="text">
+							<label class="form-popup__name-input form-popup__absolute" for="LastName">Last name</label>
+						</li>
+						<li class="form-popup__item">
+							<input class="form-popup__input-text" id="Phone" type="tel" name="phone_number">
+							<label class="form-popup__name-input form-popup__absolute" for="Phone">Phone</label>
+						</li>
+						<li class="form-popup__item">
+							<input class="form-popup__input-text" id="YourCity" type="text">
+							<label class="form-popup__name-input form-popup__absolute" for="YourCity">Your city</label>
+						</li>
+						<li class="form-popup__item">
+							<input class="form-popup__input-text" id="Email" type="email">
+							<label class="form-popup__name-input form-popup__absolute" for="Email">Email</label>
+						</li>
+						<li class="form-popup__item">
+							<input class="form-popup__input-text" id="PropertyType" type="text" list="property-list">
+							<label class="form-popup__name-input form-popup__absolute" for="PropertyType">Property type</label>
+							<datalist id="property-list">
+								<option value="type 1" label="type 1">
+								<option value="type 2" label="type 2">
+								</datalist>
+						</li>
+						<li class="form-popup__item-textarea form-popup__item">
+							<textarea class="form-popup__input-text" name="" id="YourComment" cols="30" rows="1"></textarea>
+							<label class="form-popup__name-input form-popup__absolute" for="YourComment">Your comment</label>
+						</li>
+					</ul>
+				</div>
+				<div class="form-popup__second-block">
+					<div class="area-popup form-popup__area">
+						<p class="form-popup__name-input">Area(m2)</p>
+						<div class="area-popup__radio">
+							<label class="button-radio">to 50
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+							<label class="button-radio">50-150
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+							<label class="button-radio">150-250
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+							<label class="button-radio">250-400
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+							<label class="button-radio">400-600
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+							<label class="button-radio">600-800
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+							<label class="button-radio">800-1000
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+							<label class="button-radio">1000+
+								<input type="radio" checked="checked" name="radio">
+								<span class="checkmark"></span>
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-popup__last-block">
+					<div class="form-popup__form-send">
+						<div class="add-file">
+							<input type="file" id="upload-file">
+							<button type="button" id="upload-btn">+</button>
+							<div class="add-file__text">
+								<p id="upload-text" class="add-file__title">Attach your file</p>
+								<p class="add-file__description">File size not more than 10 MB</p>
+							</div>
+						</div>
+						<button type="submit" data-popup="#popup-complite" class="button form-popup__button">Send Request</button>
+					</div>
+					<p class="form-popup__description">It is a long established fact that a reader will be distracted by
+						the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+						that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+						content here', making it look like readable English.</p>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

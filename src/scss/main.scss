@@ -1,0 +1,39 @@
+.main-body {
+    height: 100%;
+    .component-2 {
+        color: #fff;
+    }
+    .component-1__title-block {
+        max-width: 449px;
+        display: block;
+        text-align: center;
+        margin: auto;
+        .description{
+            margin-top: 34px;
+        }
+        .filter-block {
+            display: none;
+        }
+    }
+    .gallary-component-1__item {
+        &:nth-child(3) {
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        &:nth-child(6) {
+            display: none;
+            @media (max-width: 768px) {
+                display: block;
+                grid-row-start: 4;
+            }
+        }
+        &:nth-child(n + 7) {
+            display: none;
+        }
+    }
+}
+.main__background-image {
+    background: url(@img/background-404.svg);
+    background-size: cover;
+}

@@ -1,0 +1,147 @@
+.component-6 {
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    &__container-big {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: 0;
+        max-width: none;
+        @media (max-width: 1023px) {
+            padding: auto;
+            margin: auto;
+        }
+        .component-6__text-block{
+            max-width: 382px;
+            margin-left: 400px;
+            @media (max-width: 1400px) {
+                margin-left: 159px;
+            }
+            @media (max-width: 1023px) {
+                margin-left: 0;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .title{
+                @media (max-width: 1400px) {
+                    font-size: 32px;
+                }
+            }
+            .description{
+                margin-top: 24px;
+                @media (max-width: 1400px) {
+                    margin-top: 14px;
+                    font-size: 14px;
+                }
+            }
+            .pagination-block {
+                margin-top: 49px;
+                height: 20px;
+                max-width: 305px;
+                z-index: 5;
+                position: relative;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                @media (max-width: 1400px) {
+                    margin-top: 25px;
+                }
+                @media (max-width: 1023px) {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .swiper-pagination {
+                    position: relative;
+                    max-width: 210px;
+                    width: 100%;
+                    height: 1px;
+                    left: 10px;
+                    background: rgba(255, 255, 255, 0.3);
+                    .swiper-pagination-progressbar-fill {
+                        background-color: #828282;
+                    }
+                    @media (max-width: 330px) {
+                        left: 3px;
+                    }
+                }
+                .swiper-button-prev {
+                    position: relative;
+                    display: flex;
+                    flex-direction: row-reverse;
+                    &::after {
+                        position: relative;
+                        font-size: 11px;
+                        color: #828282;
+                        line-height: 10px;
+                        margin-right: 5px;
+                    }
+                    .prev-slide {
+                        font-weight: 300;
+                        width: fit-content;
+                        font-size: 11px;
+                        line-height: 13px;
+                        letter-spacing: 0.06em;
+                        color: #828282;
+                    }
+                }
+                .swiper-button-next {
+                    display: flex;
+                    &::after {
+                        width: fit-content;
+                        position: relative;
+                        font-size: 11px;
+                        color: #828282;
+                        line-height: 10px;
+                        margin-left: 5px;
+                    }
+                    .next-slide {
+                        position: relative;
+                        font-weight: 300;
+                        font-size: 11px;
+                        line-height: 13px;
+                        letter-spacing: 0.06em;
+                        color: #828282;
+                    }
+                }
+            }
+        }
+        .component-6__slider {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+            @media (max-width: 1023px) {
+                flex-direction: column;
+            }
+            .about-swiper{
+                position: relative;
+                overflow: hidden;
+                max-height: 444px;
+                max-width: 685px;
+                width: 100%;
+                height: 100%;
+                @media (max-width: 1400px) {
+                    max-width: 500px;
+                }
+                @media (max-width: 1023px) {
+                    max-width: 800px;
+                }
+                .about-wrapper {
+                }
+
+                .about-slide{
+                    &__img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .swiper-pagination {
+                }
+
+            }
+        }
+    }
+}

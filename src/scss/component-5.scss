@@ -1,0 +1,23 @@
+.component-5 {
+    .full-screen {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .center-text {
+            text-align: center;
+            max-width: 383px;
+            color: #fff;
+        }
+    }
+}

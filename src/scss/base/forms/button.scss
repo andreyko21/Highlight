@@ -1,0 +1,54 @@
+//<BUTTONS (a.btn+tab)>
+// Снипет (HTML): btn
+
+.button {
+	@include adaptiveValue("padding-top", 17, 14);
+	@include adaptiveValue("padding-left", 48, 30);
+	@include adaptiveValue("padding-right", 48, 30);
+	padding-bottom: rem(17);
+	font-weight: 600;
+	line-height: math.div(14,11);
+	display: inline-block;
+	transition: all 0.3s ease 0s;
+	@media (any-hover: hover) {
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.32);
+		}
+	}
+	&._fw {
+		width: 100%;
+	}
+}
+
+.button-link {
+	padding-left: rem(16);
+	padding-right: rem(64);
+	position: relative;
+	display: block;
+	width: fit-content;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 12px;
+	color: #ffffff;
+	text-transform: uppercase;
+	&::before{
+		position: absolute;
+		content: "";
+		left: 0;
+		top: 50%;
+		width: rem(8);
+		height: rem(1);
+		background: rgba(255, 255, 255, 0.2);
+		transform: translate(0, -50%);
+	}
+	&::after{
+		position: absolute;
+		content: "";
+		right: 0;
+		top: 50%;
+		transform: translate(0, -50%);
+		width: rem(56);
+		height: rem(1);
+		background: rgba(255, 255, 255, 0.2);
+	}
+}

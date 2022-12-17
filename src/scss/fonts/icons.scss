@@ -1,0 +1,42 @@
+%ic {
+	font-family: 'icomoon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="icon-"] {
+	&:before {
+		@extend %ic;
+		display: block;
+	}
+}
+
+.icon-arrow:before {
+	content: "\e907";
+  }
+  .icon-link:before {
+	content: "\e900";
+  }
+  .icon-math:before {
+	content: "\e905";
+  }
+  .icon-calendar:before {
+	content: "\e906";
+  }
+  .icon-linkedin:before {
+	content: "\e901";
+  }
+  .icon-twi:before {
+	content: "\e902";
+  }
+  .icon-facebook:before {
+	content: "\e903";
+  }
+  .icon-maps-and-flags:before {
+	content: "\e904";
+  }
+  

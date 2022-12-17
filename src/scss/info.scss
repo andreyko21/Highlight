@@ -1,0 +1,47 @@
+.info-first-section {
+    display: flex;
+    align-items: center;
+    gap: rem(79);
+    .info-city {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        gap: rem(40);
+        &__mail-tel {
+            margin-right: 20px;
+            display: flex;
+            gap: rem(40);
+            @media (max-width: $mobile) {
+                flex-direction: column;
+                gap: rem(8);
+                font-size: 10px;
+            }
+        }
+        .button-menu {
+            position: relative;
+            .icon-maps-and-flags{
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                transform: translate(0, -50%);
+                z-index: 1;
+            }
+            .select-city {
+                display: flex;
+                align-items: center;
+                border: 1px solid #fff;
+                border-radius: 88px;
+                padding: rem(5) rem(20) rem(5) rem(28);
+                font-size: 11px;
+                line-height: math.div(14, 11);
+                color: #fff;
+                
+                .select-city__background {
+                    background-color: rgba($color: #000000, $alpha: 0.2);
+                }
+                background-color: rgba($color: #fff, $alpha: 0.01);
+                z-index: 2;
+            }
+        }
+    }
+}
